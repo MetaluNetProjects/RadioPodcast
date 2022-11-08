@@ -1,4 +1,4 @@
-#N canvas 163 354 603 417 12;
+#N canvas 564 424 603 417 12;
 #X obj 38 38 r TUNING;
 #X obj 185 17 r STATION;
 #X obj 185 41 t b s, f 9;
@@ -11,7 +11,7 @@
 #X msg 38 62 \$1 30;
 #X obj 38 86 line~;
 #X obj 38 117 *~;
-#N canvas 680 133 512 362 noise 1;
+#N canvas 680 133 512 362 noise 0;
 #X obj 152 47 inlet~;
 #X obj 51 120 noise~;
 #X obj 44 270 *~, f 9;

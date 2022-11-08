@@ -1,7 +1,7 @@
 #N canvas 159 484 450 300 12;
 #X obj 39 30 fraise_interface;
 #X obj 40 133 station PU;
-#N canvas 133 258 450 300 datadir 1;
+#N canvas 98 605 450 300 datadir 0;
 #X obj 20 24 loadbang;
 #X obj 187 25 inlet;
 #X msg 187 49 dir;

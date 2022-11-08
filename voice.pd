@@ -1,4 +1,4 @@
-#N canvas 315 68 673 827 12;
+#N canvas 315 68 751 827 12;
 #X obj 137 18 inlet~;
 #X obj 128 620 readsf~ 2 1e+06, f 18;
 #X obj 129 793 outlet~;
@@ -68,6 +68,7 @@
 #X obj 20 380 *~ 16000;
 #X obj 349 192 t b b;
 #X msg 379 220 stop;
+#X listbox 470 522 36 0 0 0 - - - 0;
 #X connect 0 0 6 0;
 #X connect 0 0 8 0;
 #X connect 1 0 34 0;
@@ -104,6 +105,7 @@
 #X connect 27 0 28 3;
 #X connect 28 0 29 0;
 #X connect 29 0 38 0;
+#X connect 29 0 69 0;
 #X connect 29 1 40 0;
 #X connect 30 0 31 0;
 #X connect 31 0 45 0;
