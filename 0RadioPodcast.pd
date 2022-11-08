@@ -1,4 +1,4 @@
-#N canvas 234 168 450 300 12;
+#N canvas 494 650 450 300 12;
 #X obj 39 30 fraise_interface;
 #X obj 40 133 station PU;
 #N canvas 477 264 450 300 datadir 0;
@@ -20,4 +20,7 @@
 #X obj 42 220 station OC;
 #X obj 42 241 station NONE;
 #X obj 229 108 player;
+#X obj 309 36 loadbang;
+#X msg 309 60 \; pd dsp 1;
 #X connect 3 0 2 0;
+#X connect 10 0 11 0;
