@@ -9,16 +9,20 @@
 
 #define TUNING K1
 #define VOLUME K2
+#define BASS   K3
+#define TREBLE K4
 
-#define POWERSW K11
 
 #define LAMP K6
 
-#define STAT_PU MB1
-#define STAT_GO MBEN
-#define STAT_PO MBPWM
-#define STAT_BE MOTB_CURRENT
-#define STAT_OC MBEN2
+#define POWERSW K11
+
+#define POWER_SW    MB1
+#define STAT_LW     MBEN
+#define STAT_PHONO  MBPWM
+#define STAT_KW     MOTB_CURRENT
+#define STAT_UKW    MBEN2
+#define STAT_MW     MB2
 
 #endif // _CONFIG_H_
 

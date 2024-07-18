@@ -25,17 +25,20 @@ void setup(void) {
 	
 	analogSelectTouch(0, TUNING);
 	analogSelect(1, VOLUME);
-	
+	analogSelect(2, BASS);
+	analogSelect(3, TREBLE);
+
 //----------- Switch setup ----------------
 	switchInit();		// init switch module
-	switchSelect(0, POWERSW);
-	switchSelect(1, STAT_PU);
-	switchSelect(2, STAT_GO);
-	switchSelect(3, STAT_PO);
-	switchSelect(4, STAT_BE);
-	switchSelect(5, STAT_OC);
-	
+	switchSelect(0, POWER_SW);
+	switchSelect(1, STAT_PHONO);
+	switchSelect(2, STAT_LW);
+	switchSelect(3, STAT_MW);
+	switchSelect(4, STAT_KW);
+	switchSelect(5, STAT_UKW);
+
 	pinModeAnalogOut(LAMP);
+	analogWrite(LAMP, 0);
 }
 
 void loop() {
